@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>هوم كلين</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    body {
+      overflow-x: hidden;
+    }
+
+    .navbar {
+      background-color: #28a745;
+    }
+
+    .navbar-nav .nav-link {
+      color: #fff;
+      margin-left: 20px;
+    }
+
+    .navbar-nav .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    .moving-text-wrapper {
+      width: 100vw;
+      overflow: hidden;
+      background-color: #f8f9fa;
+      padding: 15px 0;
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+    }
+
+    .moving-text {
+      display: inline-block;
+      white-space: nowrap;
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: #28a745;
+      animation: slideLeft 12s linear infinite;
+    }
+
+    @keyframes slideLeft {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    footer {
+      background-color: #f8f9fa;
+      padding: 30px 0;
+    }
+
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .navbar .social-icons a {
+      font-size: 2rem;
+      margin-left: 15px;
+    }
+
+    .contact-section {
+      background-color: #f1f1f1;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .contact-section .btn {
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- الشريط العلوي -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <!-- روابط -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#services">خدماتنا</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">عن المؤسسة</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">تواصل معنا</a>
+        </li>
+      </ul>
+
+      <!-- اسم وشعار -->
+      <div class="d-flex align-items-center">
+        <img src="images/logo1.jpg" alt="شعار" style="width: 35px; height: 35px;" class="rounded-circle me-2" />
+        <span class="text-white fw-bold">
+		<b>Homeclean</b>
+		</span>
+      </div>
+
+      <!-- أيقونات -->
+      <div class="d-flex align-items-center social-icons ms-3">
+        <a href="https://www.tiktok.com/@homcl0?_t=ZS-8xpSFvdp0yG&_r=1"class="text-white" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://instagram.com/homeclean2006" class="text-white" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/966530056777" class="text-white" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </nav>
+ 
+  <!-- صورة بنر -->
+  <div class="container-fluid px-0">
+    <img src="images/uu.jpg" alt="بنر" class="img-fluid w-100" style="height: 423px; object-fit: cover;" />
+  </div>
+
+  <!-- النص المتحرك -->
+  <div class="moving-text-wrapper">
+    <div class="moving-text">
+   نحن نؤمن بأهمية النظافة في الأماكن المقدسة. لذلك، نقدم خصم
+      <strong>50%</strong> للمساجد والمواقع الدينية ❤
+	 	</div>
+  </div>
+
+  <!-- الكروت -->
+  <p class="text-center">  امثلة عن الخدمات التي يوفرها فريقنا : </p>
+  
+  <div class="container-fluid mt-5 px-4">
+  
+    <!-- الصف الأول -->
+    <div class="row g-3">
+      <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img3.jpg" class="card-img-top" alt="صورة 1" />
+          <div class="card-body">
+            <p class="card-text">خدمة تنظيف الحمامات </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img8.jpg" class="card-img-top" alt="صورة 2" />
+          <div class="card-body">
+            <p class="card-text">خدمة مكافحة القوارض</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img9.jpg" class="card-img-top" alt="صورة 3" />
+          <div class="card-body">
+            <p class="card-text">خدمة تنظيف الارضيات</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img10.jpg " class="card-img-top" alt="صورة 4" />
+          <div class="card-body">
+            <p class="card-text">خدمة تنظيف النوافذ</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- الصف الثاني -->
+    <div class="row g-3 mt-2">
+      <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img11.jpg" class="card-img-top" alt="صورة 5" />
+          <div class="card-body">
+            <p class="card-text">خدمة تنظيف السيراميك</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img12.jpg" class="card-img-top" alt="صورة 6" />
+          <div class="card-body">
+            <p class="card-text">خدمة تنظيف الرخام</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img15.jpg" class="card-img-top" alt="صورة 7" />
+          <div class="card-body">
+            <p class="card-text">خدمة تنظيف الفلل والمنازل بعد التشطيب</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img13.jpg" class="card-img-top" alt="صورة 8" />
+          <div class="card-body">
+            <p class="card-text">خدمة تنظيف الفرش</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- الصف الثالث -->
+    <div class="row g-3 mt-2">
+      <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img14.jpg" class="card-img-top" alt="صورة 9" />
+          <div class="card-body">
+            <p class="card-text">خدمة تنظيف المغاسيل</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img5.jpg" class="card-img-top" alt="صورة 10" />
+          <div class="card-body">
+            <p class="card-text">خدمة تنظيف المطبخ</p>
+          </div>
+        </div>
+      </div>
+	     <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/ii.jpg" class="card-img-top" alt="صورة 9" />
+          <div class="card-body">
+            <p class="card-text">خدمة تنظيف الكنب </p>
+          </div>
+        </div>
+      </div>
+	     <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img7.jpg" class="card-img-top" alt="صورة 9" />
+          <div class="card-body">
+            <p class="card-text">خدمة تنظيف الحدائق من الحشرات </p>
+          </div>
+        </div>
+      </div>
+	     <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/iu.jpg" class="card-img-top" alt="صورة 9" />
+          <div class="card-body">
+            <p class="card-text">خدمة تنظيف المسابح</p>
+          </div>
+        </div>
+      </div>
+	  	     <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img4.jpg" class="card-img-top" alt="صورة 9" />
+          <div class="card-body">
+            <p class="card-text">ادوات وفريق تنظيف بكفائات عاليه</p>
+          </div>
+        </div>
+      </div>
+	  	     <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img1.jpg" class="card-img-top" alt="صورة 9" />
+          <div class="card-body">
+            <p class="card-text">مؤسستنا معروفة وخدماتنا مازالت الافضل</p>
+          </div>
+        </div>
+      </div>
+	  	     <div class="col-6 col-md-3">
+        <div class="card h-100">
+          <img src="images/img2.jpg" class="card-img-top" alt="صورة 9" />
+          <div class="card-body">
+            <p class="card-text">
+			            <p class="card-text">صحتكم في مكان امين مع <i> هوم كلين </i></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- عن المؤسسة -->
+  <div class="container mt-5" id="about">
+    <h3 class="text-center mb-3">عن المؤسسة : </h3>
+    <p class="text-center">نحن مؤسسة متخصصة في تقديم خدمات النظافة ومكافحة الحشرات والاهتمام بجودة المرافق منذ عام 2010. نطمح للريادة في هذا المجال.</p>
+  </div>
+
+  <!-- هذي اذا بعدجل على الخدمات -->
+
+<div id="services" style="background:#f8f9fa; padding: 50px;">
+<div class="container text-center">
+  <h2>خدماتنا :</h2>
+
+  <b>
+  تنظيف واجهات المباني والأبراج -  تنظيف المنازل والمصانع والشركات 
+- تنظيف الأرضيات والسيراميك - تنظيف النوافذ و الأبواب - جلي وتنظيف الرخام - غسيل السجاد و الكنب  والستائر
+ - مكافحةالحشرات والقوارض - تنظيف المطابخ و الحمامات - تنظيف المباني بعد التشطيب والصيانه - 
+</b>
+
+</div>
+</div>
+
+  <!-- حاوية التواتصل -->
+  <div class="contact-section" id="contact">
+    <h4>يسعدنا ان تتواصل معنا في حال اردت اي خدمة من خدماتنا :</h4>
+    <div class="d-flex justify-content-center my-3">
+      <a href="https://instagram.com/homeclean2006"  target="_blank" class="btn btn-outline-dark"><i class="fab fa-instagram"></i> انستقرام</a>
+      <a href="https://www.tiktok.com/@homcl0?_t=ZS-8xpSFvdp0yG&_r=1" target="_blank" class="btn btn-outline-dark"><i class="fab fa-tiktok"></i> تيك توك</a>
+      <a href="https://wa.me/966500687277" target="_blank" class="btn btn-outline-success"><i class="fab fa-whatsapp"></i> واتساب</a>
+    </div>
+      <a href="https://wa.me/966530056777" target="_blank" class="btn btn-success">او من خلال الرقم الاخر</a>
+
+  </div>
+
+
+
+  <!-- الفوتر -->
+  <footer class="mt-5">
+    <div class="container text-center">
+      <h5>معلومات المؤسسة : </h5>
+      <p>
+	  
+الاحساء:0530056777
+ - الخبر:0535830033  -
+الجبيل الصناعية:0508202904
+	  </p>
+
+      <p>تأسست في عام 2010 - رؤيتنا تقديم أفضل الخدمات لعملائنا</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
